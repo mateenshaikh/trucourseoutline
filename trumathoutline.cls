@@ -3,11 +3,12 @@
 
 \LoadClassWithOptions{article}
 
-\newcommand{\myheadheight}{68pt}
+\newcommand{\myheadheight}{63pt}
+
 
 \RequirePackage[margin=1in,headheight=\myheadheight,top=1.5in]{geometry}
 \RequirePackage[colorlinks=true,urlcolor=blue]{hyperref}
-
+\RequirePackage{bookman}
 
 
 \RequirePackage{setspace,parskip, lastpage,graphicx,fancyhdr}
