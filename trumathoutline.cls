@@ -25,7 +25,6 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0.5pt}
 
-\setlength{\marginparwidth}{5em}
 
 \input{tru-course-outline-fields}
 
