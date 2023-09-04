@@ -17,3 +17,7 @@ In `tru-course-outline-fields.tex` there are many `newcommand`s where you fill i
 
 
 If you don't like 4 (image, class, two tex) files and prefer just 2 files (image, tex), you can use a the article document class, copy all the stuff in the class file as the first part of your preamble, and change requirepackage to regular usepackage statements. In your regular texfile, whenever there's a call to one of the commands created in the fields.tex file, just put your actual content. Make sure that you don't rearrange or delete anything else in the outline.
+
+
+
+If you are editing multiple outlines at the same time, you'll have several versions of `tru-course-outline-fields.tex` open and you may find it annoying. In that case, you can directly edit the class-file and at the bottom where it says  `\input{tru-course-outline-fields.tex}` change it to read a course-specific file name, and rename `tru-course-outline-fields.tex` appropriately. In another version, I'll mix the macros around so you can do this without playing with the style file.
