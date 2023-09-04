@@ -1,10 +1,18 @@
-# trucourseoutline
+This outline separates what you should and shouldn't change in the course outline. All of your content goes into a single file, and the other files will (mostly) remain unchanged.
+
+# trucourseoutline instructions
+
+Download the *.cls, *.tex, *.png files.
+
+Only input your content in `tru-course-outline-fields.tex`. Compile `outline.tex` without changing it.
+
+# details
 
 You need four files:
  - `trumathoutline.cls` (the class file for \documentclass)
    - The class file defines the font, header, footer, sets spacing, and loads a few packages like geometry (for margins), graphicx (for header), and lastpage (for footer), and hyperref (for links). Don't reload these packages. List of dependencies is below
  - `outline.tex` (this is the master file that makes the actual outline and contains information you shouldn't change)
-   - This contains the order and non-removable content from course outlines.    Except for font size at the beginning, loading new packages, and maybe commenting out irrelevent sections (course description, math help centre) this should remain unchanged. It keeps all the stuff that's mandatory in our outlines, including what's dictated by ED 8-3 (course outlines). If you have a pagebreak that you don't want, don't change this file, put the relevent section in a `minipage` environment in the file you should change, `tru-course-outline-fields.tex`.
+   - This contains the order and non-removable content from course outlines.    Except for font size at the beginning, loading new packages, and maybe commenting out irrelevent sections (course description, math help centre) this should remain unchanged. It keeps all the stuff that's mandatory in our outlines, including what's dictated by ED 8-3 (course outlines). If you have a pagebreak that you don't want, don't change this file. Instead, put the relevent section in a `minipage` environment in the file you should change, `tru-course-outline-fields.tex`, discussed next
  - `tru-course-outline-fields.tex` (this is where you enter all your information that you should change--name can't change)
    - This is where customizable content goes and where you should focus all your changes. The point of the package is to separate the stuff that you should *not* change, and leave this file for what you can/should change. Go ahead and use regular tex/LaTeX here like lists, textbf, etc.. If you need a new package, you can put the appropriate usepackage at the top of this file.
  - `masthead.png` (this is the image in the header--name can't change)
@@ -24,7 +32,7 @@ If you are editing multiple outlines at the same time, you'll have several versi
 
 
 ## dependencies
-
+If you need new packages, don't reload or introduce package clashes with the following loaded packages, or address them in the class file directly.
 
 - geometry
 - hyperref
