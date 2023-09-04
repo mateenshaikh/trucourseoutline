@@ -15,7 +15,7 @@
 \onehalfspacing
 \pagestyle{fancy}
 
-\cfoot{\phantom{0} \\ \thepage\ of \pageref*{LastPage}}
+\cfoot{\phantom{0} \\ Page \thepage\ of \pageref*{LastPage}}
 
 
 \setlength\headheight{\myheadheight} %% just to make warning go away. Adjust the value after looking into the warning.
