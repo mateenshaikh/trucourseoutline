@@ -26,11 +26,11 @@ If you are editing multiple outlines at the same time, you'll have several versi
 ## dependencies
 
 
-{geometry}
-{hyperref}
-{bookman}
-{setspace}
-{parskip}
-{lastpage}
-{graphicx}
-{fancyhdr}
+geometry
+hyperref
+bookman
+setspace
+parskip
+lastpage
+graphicx
+fancyhdr
