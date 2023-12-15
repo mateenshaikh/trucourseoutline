@@ -1,11 +1,18 @@
-This outline separates what you should and shouldn't change in the course outline. What you usually should change is in the preamble macros (before \begin{document}). What you usually shouldn't change is in the body of the document (after \begin{document}). 
+# Short version
 
-# trucourseoutline instructions
+you need the tex, cls, and png files. 
+
+# Long version:
+
+
+This outline separates what you should and shouldn't change in the course outline. What you usually should change is in the preamble macros (before `\begin{document}`). What you usually shouldn't change is in the body of the document (after \begin{document}). 
+
+## trucourseoutline instructions
 
 Download the *.cls, *.tex, *.png files. The png file is for the university header.
 
 
-# details
+## details
 
 You need three files:
  - `trumathoutline.cls` (the class file for \documentclass)
@@ -19,7 +26,7 @@ You need three files:
 If you don't like the extra classfile, you can use a the article document class, copy all the stuff in the class file as the first part of your preamble, and change `requirepackage` to regular `usepackage` statements. 
 
 
-## dependencies
+### dependencies
 If you need new packages, don't reload or introduce package clashes with the following loaded packages, or address them in the class file directly.
 
 - geometry
