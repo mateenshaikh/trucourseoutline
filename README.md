@@ -2,7 +2,7 @@
 
 you need the `.tex` file (main), `.cls` (class file), and `.png` (tru header) files. You can probably figure it out easily from there.
 
-# Long version:
+# Long version
 
 
 This outline separates what you should and shouldn't change in the course outline. What you usually should change is in the preamble macros (before `\begin{document}`). What you usually shouldn't change is in the body of the document (after \begin{document}). 
