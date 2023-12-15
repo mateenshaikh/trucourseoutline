@@ -26,7 +26,6 @@
 \renewcommand{\footrulewidth}{0.5pt}
 
 
-\input{tru-course-outline-fields}
 
 
 
