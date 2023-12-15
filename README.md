@@ -1,6 +1,6 @@
 # Short version
 
-you need the tex, cls, and png files. 
+you need the `.tex` file (main), `.cls` (class file), and `.png` (tru header) files. You can probably figure it out easily from there.
 
 # Long version:
 
